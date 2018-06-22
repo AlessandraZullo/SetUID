@@ -1,14 +1,14 @@
 # SetUID
 My personal guide to get privesc
 
-# How to Use
-Run ```sudo -l```
-Read which commands can be executed by root (for example ```test/nameFile```)
-Run ```mkdir test```
-Move *setuid.c* in *test* 
-```mv setuid.c test```
-Compile script 
-```gcc setuid.c -o nameFile```
-Run as root
-```sudo -u root nameFile```
-Get Shell
+# How to Use 
+Run ```sudo -l``` <br/>
+Read which commands can be executed by root (for example ```test/nameFile```) <br/>
+Run ```mkdir test``` <br/>
+Move **setuid.c** in **test** <br/>
+```mv setuid.c test``` <br/>
+Compile script <br/>
+```gcc setuid.c -o nameFile``` <br/>
+Run as root <br/>
+```sudo -u root nameFile``` <br/>
+Get Shell <br/>
